@@ -1,0 +1,49 @@
+@media all and (max-width: 425px) {
+    input {
+        margin: 1% 1%;
+    }
+
+    #username {
+        width: 80%;
+    }
+
+    #password {
+        width: 80%;
+    }
+
+    #login {
+        width: 20%;
+    }
+
+    #formLogin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+input {
+    margin: 0 1%;
+    padding: 10px 1%;
+}
+
+.center {
+    top: 25%;
+    position: absolute;
+    width: 100%;
+}
+
+::placeholder {
+    color: red;
+}
